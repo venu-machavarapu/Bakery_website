@@ -1,0 +1,490 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Georgian:wght@100..900&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Noto Serif Georgian", serif;
+}
+nav{
+  height: 10vh;
+  padding: 0px 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: khaki;
+}
+#nav_one{
+    display: flex;
+    flex-basis: 20%;
+    justify-content: center;
+    align-items: center;
+}
+#nav_one>a{
+    font-size: 17px;
+    text-decoration: none;
+    color: black;
+}
+#nav_two{
+    display: flex;
+    flex-basis: 55%;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+#nav_two>a{
+    font-size: 16px;
+    font-weight: 510;
+    text-decoration: none;
+    color: black;
+}
+#nav_three{
+    display: flex;
+    flex-basis: 25%;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+#nav_three>i{
+    font-size: 25px;
+}
+#nav_three>div{
+    height: 20px;
+    width: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: relative;
+    right: 19px;
+    bottom: 16px;
+}
+#nav_three>p{
+    font-size: 19px;
+}
+header{
+    height:65vh;
+    background-image: url(./assets/1757134548712[1].png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 20px;
+    filter:brightness(50%);
+    background-color:rgba(0, 0, 0, 0.819);
+    border-radius: 10px;
+}
+header:hover{
+    filter: brightness(100%);
+}
+#bakery_description{
+    height: 36vh;
+    width: 100%;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#bakery_description>h1{
+    font-size: 35px;
+}
+#bakery_description>p{
+    font-weight: 510;
+}
+#bakery_description>a{
+    border: none;
+    padding: 10px 10px 10px 10px ;
+    background-color: rgb(255, 166, 0);
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+    transition: all 800ms 0s ease;
+}
+#bakery_description>a:hover{
+    background-color: rgb(255, 51, 0);
+    cursor: pointer;
+
+}
+#bakery_items{
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    gap: 80px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#bakery_items>h2{
+    font-size:33px;
+}
+.items>img{
+    height: 200px;
+    width: 200px;
+    border: none;
+    border-radius: 8px;
+    transition: all 500ms 0s ease;
+}
+.items>img:hover{
+    transform: scale(1.1);
+}
+.items>p{
+    text-align: center;
+    font-weight: 510;
+    padding-top: 15px;
+}
+#body_element{
+    display: flex;
+    gap: 80px;
+}
+footer{
+   height: 30vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 20px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+footer>h2{
+  font-size: 32px;
+}
+footer>p{
+    font-weight: 510;
+}
+footer>a{
+    padding: 10px 10px 10px 10px;
+    background-color: rgb(255, 166, 0);
+    border: none;
+    border-radius:5px ;
+    text-decoration: none;
+    color: black;
+    transition: all 800ms 0s ease;
+}
+footer>a:hover{
+    background-color: rgb(255, 51, 0);
+    cursor: pointer;
+}
+/* About Page */
+#about_us{
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#about_us>h1{
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#about_us>p{
+    text-align: center;
+}
+#about_section{
+    padding-top: 30px;
+    display: flex; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#about_one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-basis: 30%; 
+    gap: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#about_one>h1,#about_three>h1{
+    font-size: 22px;
+}
+#about_two{
+    flex-basis: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#about_two>img{
+    height: 90%;
+    width: 90%;
+    border-radius: 20px;
+}
+#about_three{
+    flex-basis: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-basis: 30%; 
+    gap: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#about_one>p{
+    text-align: center;
+}
+#about_three>p{
+    text-align: center;
+}
+#visit_section{
+    display: flex;  
+    align-items: center;
+    justify-content: center; 
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    padding-top: 20px;
+}
+#visit_one{
+    flex-basis: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+#visit_two{
+    flex-basis: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#visit_two>img{
+    border-radius: 20px;
+    height: 60%;
+    width: 60%;
+}
+#visit_one>a{
+    border: none;
+    padding: 10px 10px 10px 10px ;
+    background-color: rgb(255, 166, 0);
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+    transition: all 800ms 0s ease;
+}
+#visit_one>a:hover{
+    background-color: rgb(255, 51, 0);
+    cursor: pointer;
+}
+/* Contact page */
+#contact_page{
+    height: 85vh;
+    display: flex;
+}
+#contact_one{
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+#contact_one>h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 42px;
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+form>input{
+    width: 100%;
+    height: 40px;
+    border: 2px solid rgba(0, 0, 0, 0.571);
+    padding-left: 10px;
+    border-radius: 10px;
+}
+form>textarea{
+    border: 2px solid rgba(0, 0, 0, 0.571);
+    border-radius: 10px;
+    padding-left: 10px;
+}
+#contact_button{
+    background-color: rgb(255, 166, 0);
+    border-radius: 5px;
+    transition: all 800ms 0s ease;
+    font-size: 16px;
+}
+#contact_button:hover{
+    background-color: rgb(255, 51, 0);
+    cursor: pointer;
+}
+#contact_two{
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 90px;
+    gap: 40px;
+}
+#contact_two>h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 42px;
+}
+#contact_two>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+}
+#contact_two>img{
+    height: 350px;
+    padding-bottom: 100px;
+}
+/* Menu Page Styles */
+#menu_filter{
+  height: 20vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+
+#menu_filter>h1{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 40px;
+}
+#filter_btns{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+#filter_btns>button{
+  padding: 7px 20px;
+  border-radius: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.176);
+  font-weight: 500;
+  font-size: 16px;
+}
+#filter_btns>.active{
+  color: white;
+  background-color: orange;
+}
+
+#menu_items{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.card{
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 5px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  border: 1px solid rgba(0, 0, 0, 0.033);
+  border-radius: 10px;
+  margin: 20px;
+}
+
+.card_one{
+  /* border: 2px solid blue; */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: white;
+}
+.card_img{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  /* border: 2px solid red; */
+}
+.card_img>img{
+  height: 150px;
+  width: 150px;
+  border-radius: 10px;
+}
+.card_info{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.card_info>h2{
+  padding: 0px 5px;
+   text-align: center;
+}
+.card_info>p{
+  text-align: center;
+  font-weight: 600;
+
+}
+.card_two{
+ display: flex;
+ justify-content:space-between;
+ align-items: center;
+ gap: 20px;
+ padding: 0px 10px 0px 40px;
+}
+.card_quantity{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ gap: 15px;
+ margin: 10px 0px;
+}
+.minus,.plus{
+  height: 30px;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-weight: 600;
+  background-color:chocolate;
+  color: white;
+}
+.quantity{
+  font-weight: 700;
+  font-size: 20px;
+}
+.addToCart>button{
+    background-color: chocolate;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: 500;
+  transition: all 1s 0s ease;
+  padding: 7px 20px;
+}
+/* sidebar */
+#side_bar{
+    height: 100vh;
+    width: 350px;
+    position: fixed;
+    top: 0px;
+    right:-350px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: all 500ms 0s ease;
+    z-index: 10;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    justify-content: space-between;
+    padding: 20px;
+}
+#cart_sidebar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#cart_sidebar>h1{
+    font-size: 20px;
+    font-weight:400;
+    cursor: pointer;
+}
+#close_sidebar{
+    font-size: 30px;
+    cursor: pointer;
+}
